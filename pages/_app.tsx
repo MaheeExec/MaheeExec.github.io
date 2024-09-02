@@ -10,12 +10,12 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Upadhyaya — Frontend</title>
+        <title>Mahee Upadhyaya</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="author" content="Mahee Upadhyaya"></meta>
         <meta
           name="description"
-          content="Mahee Upadhyaya is a frontend developer who loves to work on the web."
+          content="Mahee Upadhyaya is an aspiring businesswoman with an affinity for accounting."
         ></meta>
         <meta name="theme-color" content="#794856"></meta>
       </Head>
