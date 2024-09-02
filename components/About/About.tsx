@@ -26,8 +26,7 @@ export default function About() {
         </SubHeading>
 
         <Heading size="sm" dark className="font-extrabold">
-          a frontend developer with affinity for design, intuitive user
-          experience and pixel-perfect user interfaces
+          A passionate business enthusiast with a flair for number crunching and data analysis
         </Heading>
 
         <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
