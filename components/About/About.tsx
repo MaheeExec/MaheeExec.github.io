@@ -46,7 +46,7 @@ export default function About() {
         </p>
 
         <p className="text-gray-700 text-center mt-4">
-          Now, she's wrapping up her senior year at Tompkins High School in the
+          Now, she&apos;s wrapping up her senior year at Tompkins High School in the
           USA, while also gaining practical experience as a Rebate Claim
           Specialist. Her ultimate dream? To become a leading lady in the world
           of business administration. This ambition fuels her dedication to her
