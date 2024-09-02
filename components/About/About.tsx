@@ -26,22 +26,19 @@ export default function About() {
         </SubHeading>
 
         <Heading size="sm" dark className="font-extrabold">
-          A passionate business enthusiast with a flair for number crunching and data analysis
+          A business student turned claims analyst with a knack for numbers and data
         </Heading>
 
         <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
           <p className="w-full whitespace-pre-line md:w-1/2">
-            {`I am a frontend-focused software engineer with  6+ years of professional development experience, holding a degree of BS Computer Science from the University of the Philippines.
-            \nI have been employed by leading tech companies and emerging amazing startup companies throughout my career thus far.`}
+            {`I am a business student (focused on accounting) with a passion for data analysis and problem-solving. 
+            \nThroughout my academic and professional journey, I have developed a strong understanding of business operations and rebate claims processing.`}
           </p>
 
           <div className="w-full md:w-1/2">
-            Currently, I am a Senior Software Engineer,{" "}
-            <span className="font-bold">focusing on the frontend</span>. On a
-            daily basis, I work with <MobileTechList />
-            <TechList /> among others, in building and maintaining web
-            applications and design systems —
-            <span className="font-bold">all built from the ground up</span>.
+            Currently, I am a Claims Analyst,{" "}
+            <span className="font-bold">focusing on data analysis and claims processing</span>. On a
+            daily basis, I work with various data analysis tools and methodologies to evaluate rebate claims and provide accurate settlements.
           </div>
         </div>
       </div>
