@@ -1,4 +1,4 @@
-import { SiLinkedin } from "react-icons/si";
+import { SiMinutemailer } from "react-icons/si";
 import { Badge } from "./Badge";
 import { Clipboard } from "./Clipboard";
 import { contact } from "./Float/config";
@@ -22,33 +22,41 @@ export default function Contact() {
             <SplitText text="Let’s keep in touch." />
           </Heading>
 
+          {/*
           <p>
             If you have an exciting opportunity for me, or if you just simply
             want to say hello, feel free to reach out!
           </p>
+*/}
         </div>
 
-        <Clipboard text="marie.Upadhyaya@gmail.com">
+        {/*
+        <Clipboard text="k2429848@student.katyisd.org">
           <Heading dark size="xs">
-            marie.Upadhyaya@gmail.com
+            k2429848@student.katyisd.org
           </Heading>
         </Clipboard>
+*/}
 
         <div>
-          Alternatively, you can also send me a message on
+          If you have an exciting opportunity for me, or if you just simply want
+          to say hello, feel free to reach out!
+          <br />
           <Badge
-            icon={<SiLinkedin />}
-            onClick={() => openInNewTab("https://linkedin.com/in/maribwnn")}
-            className="ml-1"
+            icon={<SiMinutemailer className="h-6 w-6" />}
+            onClick={() => openInNewTab("mailto:k2429848@student.katyisd.org")}
+            className="ml-1 mt-4 text-lg"
           >
-            Linkedin
+            Email
           </Badge>
         </div>
 
+        {/*
         <p className="whitespace-pre-line text-sm font-bold">
           {`This site is still in the works, check back often. `}
           &#9786;
         </p>
+*/}
       </div>
       <Float config={contact} />
     </SectionLayout>

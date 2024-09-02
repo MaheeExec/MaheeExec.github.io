@@ -10,15 +10,28 @@ export default function Writing() {
     <SectionLayout className="w-full items-start">
       <div className="md:max-w-2/3 flex w-full flex-col items-start space-y-11">
         <SubHeading dark align={Align.Left}>
-          projects
+          Skills
         </SubHeading>
 
         <div>
           <Heading size="sm" dark className="font-extrabold">
-            <SplitText text="It's in the works!" />
+            <SplitText text="Skill-1" />
           </Heading>
+          <p>Placeholder for Skill-1 description.</p>
+        </div>
 
-          <p>Check back soon.</p>
+        <div>
+          <Heading size="sm" dark className="font-extrabold">
+            <SplitText text="Skill-2" />
+          </Heading>
+          <p>Placeholder for Skill-2 description.</p>
+        </div>
+
+        <div>
+          <Heading size="sm" dark className="font-extrabold">
+            <SplitText text="Skill-3 Leadership" />
+          </Heading>
+          <p>Throughout my school days, I have demonstrated strong leadership skills through various roles, including team management, project leadership, and strategic planning. My leadership experience has been marked by successful project outcomes, team development, and strategic improvements.</p>
         </div>
 
         <p className="whitespace-pre-line text-xs font-bold">
