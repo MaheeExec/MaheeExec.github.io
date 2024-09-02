@@ -19,28 +19,39 @@ export default function About() {
   }
 
   return (
-    <SectionLayout className="w-full items-start">
-      <div className="md:max-w-2/3 mb-20 flex w-full flex-col items-center space-y-4 text-sm md:space-y-11 md:pb-0 md:text-lg">
-        <SubHeading dark align={Align.Left}>
+    <SectionLayout className="w-full items-start mb-20 bg-pink-50 p-6 rounded-lg shadow-lg">
+      <div className="flex flex-col items-center">
+        <SubHeading dark align={Align.Left} className="text-purple-600">
           About
         </SubHeading>
 
-        <Heading size="sm" dark className="font-extrabold">
-          A business student turned claims analyst with a knack for numbers and data
+        <img
+          src="/images/headshot.png"
+          alt="Headshot"
+          className="rounded-full border-4 border-purple-300 shadow-md mb-4"
+        />
+
+        <Heading size="sm" dark className="font-extrabold text-purple-700">
+          A business student turned claims analyst with a knack for numbers and
+          data
         </Heading>
 
-        <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
-          <p className="w-full whitespace-pre-line md:w-1/2">
-            {`I am a business student (focused on accounting) with a passion for data analysis and problem-solving. 
-            \nThroughout my academic and professional journey, I have developed a strong understanding of business operations and rebate claims processing.`}
-          </p>
+        <p className="text-gray-700 text-center mt-4">
+          Meet Mahee Upadhyaya, a charming business enthusiast with a global
+          educational journey. Starting from the vibrant classrooms of
+          Geethanjali Vidyalaya in Bangalore, she honed her leadership skills
+          amidst a bustling class of 60. Her academic prowess shone at Deeksha
+          School, consistently ranking in the top 10 in Business Studies,
+          Accounting, Economics, and Computer Science.
+        </p>
 
-          <div className="w-full md:w-1/2">
-            Currently, I am a Claims Analyst,{" "}
-            <span className="font-bold">focusing on data analysis and claims processing</span>. On a
-            daily basis, I work with various data analysis tools and methodologies to evaluate rebate claims and provide accurate settlements.
-          </div>
-        </div>
+        <p className="text-gray-700 text-center mt-4">
+          Now, she's wrapping up her senior year at Tompkins High School in the
+          USA, while also gaining practical experience as a Rebate Claim
+          Specialist. Her ultimate dream? To become a leading lady in the world
+          of business administration. This ambition fuels her dedication to her
+          studies and future career.
+        </p>
       </div>
       <Float config={about} />
     </SectionLayout>

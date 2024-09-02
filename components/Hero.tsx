@@ -18,9 +18,7 @@ export default function Home() {
         </Heading>
 
         <p className="text-center md:whitespace-pre-line">
-          {`I am a frontend developer who loves to work on
-                the web. I am passionate about building simple
-                and elegant solutions to complex problems.`}
+          {`I am a senior high school student with a focus on advanced accounting. \n I am passionate about building simple and elegant solutions to complex problems.`}
         </p>
       </div>
       <Float config={home} />
