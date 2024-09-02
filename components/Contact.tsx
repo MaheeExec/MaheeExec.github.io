@@ -28,9 +28,9 @@ export default function Contact() {
           </p>
         </div>
 
-        <Clipboard text="marie.bawanan@gmail.com">
+        <Clipboard text="marie.Upadhyaya@gmail.com">
           <Heading dark size="xs">
-            marie.bawanan@gmail.com
+            marie.Upadhyaya@gmail.com
           </Heading>
         </Clipboard>
 
