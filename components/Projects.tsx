@@ -4,6 +4,7 @@ import { SectionLayout } from "./Layout";
 import { SplitText } from "./SplitText";
 import { Heading, SubHeading } from "./Typography";
 import { Align } from "./Typography/types";
+import Image from "next/image";
 
 export default function Writing() {
   return (
@@ -51,31 +52,46 @@ export default function Writing() {
           </p>
         </div>
         <div className="grid grid-cols-3 gap-4">
-          <img
-            className="h-75 col-span-1 row-span-1 object-cover"
-            src="/images/photo1.JPG"
-            alt="Photo 1"
-          />
-          <img
-            className="h-75 col-span-1 row-span-1 object-cover"
-            src="/images/photo2.JPG"
-            alt="Photo 2"
-          />
-          <img
-            className="h-75 col-span-1 row-span-1 object-cover"
-            src="/images/photo3.PNG"
-            alt="Photo 3"
-          />
-          <img
-            className="h-75 col-span-2 row-span-1 object-cover"
-            src="/images/photo4.PNG"
-            alt="Photo 4"
-          />
-          <img
-            className="h-75 col-span-1 row-span-1 object-cover"
-            src="/images/photo5.PNG"
-            alt="Photo 5"
-          />
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/photo1.JPG"
+              alt="Photo 1"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/photo2.JPG"
+              alt="Photo 2"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/photo3.PNG"
+              alt="Photo 3"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-2 row-span-1">
+            <Image
+              src="/images/photo4.PNG"
+              alt="Photo 4"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/photo5.PNG"
+              alt="Photo 5"
+              height={500}
+              width={500}
+            />
+          </div>
         </div>
         <div>
           <Heading size="sm" dark className="font-extrabold">
