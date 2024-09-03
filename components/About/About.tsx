@@ -19,16 +19,16 @@ export default function About() {
   }
 
   return (
-    <SectionLayout className="w-full items-start mb-20 bg-pink-50 p-6 rounded-lg shadow-lg">
+    <SectionLayout className="bg-pink-50 mb-20 w-full items-start rounded-lg p-6 shadow-lg">
       <div className="flex flex-col items-center">
         <SubHeading dark align={Align.Left} className="text-purple-600">
           About
         </SubHeading>
 
         <img
-          src="/images/headshot.png"
+          src="/images/headshot.jpg"
           alt="Headshot"
-          className="rounded-full border-4 border-purple-300 shadow-md mb-4"
+          className="mb-4 h-72 w-72 rounded-full border-4 border-purple-300 object-cover shadow-md"
         />
 
         <Heading size="sm" dark className="font-extrabold text-purple-700">
@@ -36,7 +36,7 @@ export default function About() {
           data
         </Heading>
 
-        <p className="text-gray-700 text-center mt-4">
+        <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
           Meet Mahee Upadhyaya, a charming business enthusiast with a global
           educational journey. Starting from the vibrant classrooms of
           Geethanjali Vidyalaya in Bangalore, she honed her leadership skills
@@ -45,9 +45,9 @@ export default function About() {
           Accounting, Economics, and Computer Science.
         </p>
 
-        <p className="text-gray-700 text-center mt-4">
-          Now, she&apos;s wrapping up her senior year at Tompkins High School in the
-          USA, while also gaining practical experience as a Rebate Claim
+        <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
+          Now, she&apos;s wrapping up her senior year at Tompkins High School in
+          the USA, while also gaining practical experience as a Rebate Claim
           Specialist. Her ultimate dream? To become a leading lady in the world
           of business administration. This ambition fuels her dedication to her
           studies and future career.

@@ -17,6 +17,7 @@ module.exports = {
         red: "#DE5055",
         orange: "#DF7410",
         teal: "#2F4858",
+        customPurple: '#5C253F',
       },
       fontFamily: {
         serif: [
