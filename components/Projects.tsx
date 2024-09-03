@@ -30,12 +30,12 @@ export default function Writing() {
             been marked by successful project outcomes, team development, and
             strategic improvements. Imagine being the captain of a ship, but
             your ship is a kitchen, and your crew is a team of six enthusiastic
-            chefs. The challenge? A national &aposCooking Without Fire&apos
+            chefs. The challenge? A national 'Cooking Without Fire'
             competition. With a sprinkle of guidance, a dash of motivation, and
             a generous helping of teamwork, we navigated through the choppy
-            waters of culinary challenges. Leading this team wasn&apost just
+            waters of culinary challenges. Leading this team wasn't just
             about winning, it was about blending our skills to create something
-            deliciously extraordinary. That&aposs the essence of leadership!
+            deliciously extraordinary. That's the essence of leadership!
             <img
               src="/images/cookingWithoutFire.jpg"
               alt="Certificate"
@@ -51,7 +51,7 @@ export default function Writing() {
           <p>
             {" "}
             Photography allows me to capture moments and explore the world
-            through a creative lens, finding beauty in everyday life. It&aposs a
+            through a creative lens, finding beauty in everyday life. It's a
             way to express myself artistically while preserving memories that
             tell a story.
           </p>
