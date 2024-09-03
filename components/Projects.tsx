@@ -107,7 +107,7 @@ export default function Writing() {
         <div className="grid grid-cols-3 gap-4">
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/drawingPhoto1.JPG"
+              src="/images/drawingPhoto1.jpg"
               alt="Photo 1"
               height={500}
               width={500}
@@ -115,7 +115,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/drawingPhoto2.JPG"
+              src="/images/drawingPhoto2.jpg"
               alt="Photo 2"
               height={500}
               width={500}
@@ -123,7 +123,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/drawingPhoto3.JPG"
+              src="/images/drawingPhoto3.jpg"
               alt="Photo 3"
               height={500}
               width={500}
@@ -131,7 +131,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-2 row-span-1">
             <Image
-              src="/images/drawingPhoto4.JPG"
+              src="/images/drawingPhoto4.jpg"
               alt="Photo 4"
               height={500}
               width={500}
@@ -139,7 +139,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/drawingPhoto5.JPG"
+              src="/images/drawingPhoto5.jpg"
               alt="Photo 5"
               height={500}
               width={500}
