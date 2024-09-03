@@ -17,7 +17,7 @@ const menuItems: MenuItem[] = [
     url: Page.About,
   },
   {
-    label: "projects",
+    label: "skills",
     icon: <RiCodeLine />,
     extra: "my work",
     url: Page.Projects,

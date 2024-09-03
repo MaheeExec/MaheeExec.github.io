@@ -20,7 +20,8 @@ export default function About() {
   }
 
   return (
-    <SectionLayout className="bg-pink-50 mb-20 mb-16 w-full items-start rounded-lg p-6 shadow-lg">
+    <SectionLayout className="bg-pink-50 mb-20 w-full items-start rounded-lg p-6 pb-20 shadow-lg overflow-auto">
+      {" "}
       <div className="flex flex-col items-center">
         <SubHeading dark align={Align.Left} className="text-purple-600">
           About
