@@ -5,11 +5,11 @@ import { SplitText } from "./SplitText";
 import { Heading, SubHeading } from "./Typography";
 import { Align } from "./Typography/types";
 import Image from "next/image";
-import drawingPhoto1 from '../public/images/drawingPhoto1.jpg'
-import drawingPhoto2 from '../public/images/drawingPhoto2.jpg'
-import drawingPhoto3 from '../public/images/drawingPhoto3.jpg'
-import drawingPhoto4 from '../public/images/drawingPhoto4.jpg'
-import drawingPhoto5 from '../public/images/drawingPhoto5.jpg'
+import drawingPhoto1 from "../public/images/drawingPhoto1.jpg";
+import drawingPhoto2 from "../public/images/drawingPhoto2.jpg";
+import drawingPhoto3 from "../public/images/drawingPhoto3.jpg";
+import drawingPhoto4 from "../public/images/drawingPhoto4.jpg";
+import drawingPhoto5 from "../public/images/drawingPhoto5.jpg";
 
 export default function Writing() {
   return (
@@ -28,18 +28,12 @@ export default function Writing() {
             skills through various roles, including team management, project
             leadership, and strategic planning. My leadership experience has
             been marked by successful project outcomes, team development, and
-            strategic improvements. Imagine being the captain of a ship, but
-            your ship is a kitchen, and your crew is a team of six enthusiastic
-            chefs. The challenge? A national &apos;Cooking Without Fire&apos;
-            competition. With a sprinkle of guidance, a dash of motivation, and
-            a generous helping of teamwork, we navigated through the choppy
-            waters of culinary challenges. Leading this team wasn&apos;t just
-            about winning, it was about blending our skills to create something
-            deliciously extraordinary. That&apos;s the essence of leadership!
+            strategic improvements. The certificate below is from when I led my
+            team to victory in a cooking competition.
             <img
               src="/images/cookingWithoutFire.jpg"
               alt="Certificate"
-              className="mx-auto w-full max-w-xs transform"
+              className="mx-auto w-full max-w-sm transform"
             />
           </p>
         </div>
@@ -51,8 +45,8 @@ export default function Writing() {
           <p>
             {" "}
             Photography allows me to capture moments and explore the world
-            through a creative lens, finding beauty in everyday life. It&apos;s a
-            way to express myself artistically while preserving memories that
+            through a creative lens, finding beauty in everyday life. It&apos;s
+            a way to express myself artistically while preserving memories that
             tell a story.
           </p>
         </div>
@@ -111,38 +105,22 @@ export default function Writing() {
         </div>
         <div className="grid grid-cols-3 gap-4">
           <div className="h-75 relative col-span-1 row-span-1">
-            <Image
-              src={drawingPhoto1}
-              alt="Drawing Photo 1"
-            />
+            <Image src={drawingPhoto1} alt="Drawing Photo 1" />
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
-            <Image
-              src={drawingPhoto2}
-              alt="Drawing Photo 2"
-            />
+            <Image src={drawingPhoto2} alt="Drawing Photo 2" />
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
-            <Image
-              src={drawingPhoto3}
-              alt="Drawing Photo 3"
-            />
+            <Image src={drawingPhoto3} alt="Drawing Photo 3" />
           </div>
           <div className="h-75 relative col-span-2 row-span-1">
-            <Image
-              src={drawingPhoto4}
-              alt="Drawing Photo 4"
-            />
+            <Image src={drawingPhoto4} alt="Drawing Photo 4" />
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
-            <Image
-              src={drawingPhoto5}
-              alt="Drawing Photo 5"
-            />
+            <Image src={drawingPhoto5} alt="Drawing Photo 5" />
           </div>
         </div>
-        <p className="whitespace-pre-line text-xs font-bold">
-        </p>
+        <p className="whitespace-pre-line text-xs font-bold"></p>
       </div>
       <Float config={projects} />
     </SectionLayout>

@@ -20,7 +20,7 @@ export default function About() {
   }
 
   return (
-    <SectionLayout className="bg-pink-50 mb-20 w-full items-start rounded-lg p-6 pb-20 shadow-lg overflow-auto">
+    <SectionLayout className="bg-pink-50 mb-20 w-full items-start overflow-auto rounded-lg p-6 pb-20 shadow-lg">
       {" "}
       <div className="flex flex-col items-center">
         <SubHeading dark align={Align.Left} className="text-purple-600">
@@ -36,19 +36,21 @@ export default function About() {
           data
         </Heading>
         <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
-          Meet Mahee Upadhyaya, a charming business enthusiast with a global
-          educational journey. Starting from the vibrant classrooms of
-          Geethanjali Vidyalaya in Bangalore, she honed her leadership skills
-          amidst a bustling class of 60. Her academic prowess shone at Deeksha
-          School, consistently ranking in the top 10 in Business Studies,
-          Accounting, Economics, and Computer Science.
+          Mahee Upadhyaya is a dynamic business enthusiast with a rich global
+          educational background. Her journey began in the vibrant classrooms of
+          Geethanjali Vidyalaya in Bangalore, where she developed her leadership
+          skills among a bustling class of 60 students. Mahee&apos;s academic
+          excellence continued at Deeksha School, where she consistently ranked
+          in the top 10 in Business Studies, Accounting, Economics, and Computer
+          Science.
         </p>
         <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
-          Now, she&apos;s wrapping up her senior year at Tompkins High School in
-          the USA, while also gaining practical experience as a Rebate Claim
-          Specialist. Her ultimate dream? To become a leading lady in the world
-          of business administration. This ambition fuels her dedication to her
-          studies and future career.
+          Currently, Mahee is completing her senior year at Tompkins High School
+          in the USA. Alongside her studies, she is gaining valuable practical
+          experience as a Rebate Claim Specialist at Unified Resources. Driven
+          by her ambition to become a leading figure in business administration,
+          Mahee&apos;s dedication to her studies and future career is
+          unwavering.
         </p>
         <a
           href="/assets/MaheeResume.pdf"
