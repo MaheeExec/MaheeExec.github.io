@@ -5,6 +5,11 @@ import { SplitText } from "./SplitText";
 import { Heading, SubHeading } from "./Typography";
 import { Align } from "./Typography/types";
 import Image from "next/image";
+import drawingPhoto1 from '../public/images/drawingPhoto1.jpg'
+import drawingPhoto2 from '../public/images/drawingPhoto2.jpg'
+import drawingPhoto3 from '../public/images/drawingPhoto3.jpg'
+import drawingPhoto4 from '../public/images/drawingPhoto4.jpg'
+import drawingPhoto5 from '../public/images/drawingPhoto5.jpg'
 
 export default function Writing() {
   return (
@@ -107,42 +112,32 @@ export default function Writing() {
         <div className="grid grid-cols-3 gap-4">
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="../public/images/drawingPhoto1.jpg"
-              alt="Photo 1"
-              height={500}
-              width={500}
+              src={drawingPhoto1}
+              alt="Drawing Photo 1"
             />
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="../public/images/drawingPhoto2.jpg"
-              alt="Photo 2"
-              height={500}
-              width={500}
+              src={drawingPhoto2}
+              alt="Drawing Photo 2"
             />
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="../public/images/drawingPhoto3.jpg"
-              alt="Photo 3"
-              height={500}
-              width={500}
+              src={drawingPhoto3}
+              alt="Drawing Photo 3"
             />
           </div>
           <div className="h-75 relative col-span-2 row-span-1">
             <Image
-              src="../public/images/drawingPhoto4.jpg"
-              alt="Photo 4"
-              height={500}
-              width={500}
+              src={drawingPhoto4}
+              alt="Drawing Photo 4"
             />
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="../public/images/drawingPhoto5.jpg"
-              alt="Photo 5"
-              height={500}
-              width={500}
+              src={drawingPhoto5}
+              alt="Drawing Photo 5"
             />
           </div>
         </div>
