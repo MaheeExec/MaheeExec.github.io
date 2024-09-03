@@ -24,12 +24,12 @@ export default function Writing() {
             been marked by successful project outcomes, team development, and
             strategic improvements. Imagine being the captain of a ship, but
             your ship is a kitchen, and your crew is a team of six enthusiastic
-            chefs. The challenge? A national 'Cooking Without Fire' competition.
+            chefs. The challenge? A national &aposCooking Without Fire&apos competition.
             With a sprinkle of guidance, a dash of motivation, and a generous
             helping of teamwork, we navigated through the choppy waters of
-            culinary challenges. Leading this team wasn't just about winning, it
+            culinary challenges. Leading this team wasn&apost just about winning, it
             was about blending our skills to create something deliciously
-            extraordinary. That's the essence of leadership!
+            extraordinary. That&aposs the essence of leadership!
             <img
               src="/images/cookingWithoutFire.jpg"
               alt="Certificate"
@@ -50,12 +50,12 @@ export default function Writing() {
             been marked by successful project outcomes, team development, and
             strategic improvements. Imagine being the captain of a ship, but
             your ship is a kitchen, and your crew is a team of six enthusiastic
-            chefs. The challenge? A national 'Cooking Without Fire' competition.
+            chefs. The challenge? A national &aposCooking Without Fire&apos competition.
             With a sprinkle of guidance, a dash of motivation, and a generous
             helping of teamwork, we navigated through the choppy waters of
-            culinary challenges. Leading this team wasn't just about winning, it
+            culinary challenges. Leading this team wasn&apost just about winning, it
             was about blending our skills to create something deliciously
-            extraordinary. That's the essence of leadership!
+            extraordinary. That&aposs the essence of leadership!
           </p>
         </div>
 
@@ -70,12 +70,12 @@ export default function Writing() {
             been marked by successful project outcomes, team development, and
             strategic improvements. Imagine being the captain of a ship, but
             your ship is a kitchen, and your crew is a team of six enthusiastic
-            chefs. The challenge? A national 'Cooking Without Fire' competition.
+            chefs. The challenge? A national &aposCooking Without Fire&apos competition.
             With a sprinkle of guidance, a dash of motivation, and a generous
             helping of teamwork, we navigated through the choppy waters of
-            culinary challenges. Leading this team wasn't just about winning, it
+            culinary challenges. Leading this team wasn&apost just about winning, it
             was about blending our skills to create something deliciously
-            extraordinary. That's the essence of leadership!
+            extraordinary. That&aposs the essence of leadership!
           </p>
         </div>
 
