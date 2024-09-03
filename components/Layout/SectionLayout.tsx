@@ -32,7 +32,7 @@ export default function SectionLayout({ children, className }: Props) {
 
   return (
     <div className="flex min-h-screen w-screen flex-col items-center">
-      <div className="absolute top-0 left-0 -z-30 h-screen w-screen overflow-hidden bg-blue transition-colors duration-500 ease-in-out dark:bg-black" />
+      <div className="absolute top-0 left-0 -z-30 h-screen w-screen overflow-auto bg-blue transition-colors duration-500 ease-in-out dark:bg-black" />
       <div
         className={classNames(
           "flex h-screen w-[90%] max-w-[90%] flex-col md:max-w-7xl",
