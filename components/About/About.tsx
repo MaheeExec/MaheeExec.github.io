@@ -32,8 +32,7 @@ export default function About() {
           className="mb-4 h-72 w-72 rounded-full border-4 border-purple-300 object-cover shadow-md"
         />
         <Heading size="sm" dark className="font-extrabold text-purple-700">
-          A business student turned claims analyst with a knack for numbers and
-          data
+          
         </Heading>
         <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
           Mahee Upadhyaya is a dynamic business enthusiast with a rich global
