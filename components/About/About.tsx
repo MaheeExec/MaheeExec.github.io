@@ -54,8 +54,8 @@ export default function About() {
           rel="noopener noreferrer"
         >
           Open Resume
-        </a>{" "}
-      </div>
+        </a>{" "} {" "}
+      </div>      
       <Float config={about} />
     </SectionLayout>
   );

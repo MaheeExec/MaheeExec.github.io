@@ -54,7 +54,7 @@ export default function Writing() {
         <div className="grid grid-cols-3 gap-4">
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/photo1.JPG"
+              src="/images/photographyPhoto1.JPG"
               alt="Photo 1"
               height={500}
               width={500}
@@ -62,7 +62,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/photo2.JPG"
+              src="/images/photographyPhoto2.JPG"
               alt="Photo 2"
               height={500}
               width={500}
@@ -70,7 +70,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/photo3.PNG"
+              src="/images/photographyPhoto3.PNG"
               alt="Photo 3"
               height={500}
               width={500}
@@ -78,7 +78,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-2 row-span-1">
             <Image
-              src="/images/photo4.PNG"
+              src="/images/photographyPhoto4.PNG"
               alt="Photo 4"
               height={500}
               width={500}
@@ -86,7 +86,7 @@ export default function Writing() {
           </div>
           <div className="h-75 relative col-span-1 row-span-1">
             <Image
-              src="/images/photo5.PNG"
+              src="/images/photographyPhoto5.PNG"
               alt="Photo 5"
               height={500}
               width={500}
@@ -104,10 +104,49 @@ export default function Writing() {
             skills.
           </p>
         </div>
-
+        <div className="grid grid-cols-3 gap-4">
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/drawingPhoto1.JPG"
+              alt="Photo 1"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/drawingPhoto2.JPG"
+              alt="Photo 2"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/drawingPhoto3.JPG"
+              alt="Photo 3"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-2 row-span-1">
+            <Image
+              src="/images/drawingPhoto4.JPG"
+              alt="Photo 4"
+              height={500}
+              width={500}
+            />
+          </div>
+          <div className="h-75 relative col-span-1 row-span-1">
+            <Image
+              src="/images/drawingPhoto5.JPG"
+              alt="Photo 5"
+              height={500}
+              width={500}
+            />
+          </div>
+        </div>
         <p className="whitespace-pre-line text-xs font-bold">
-          Meanwhile, this site is being built & designed with NextJS,
-          TypeScript, Tailwind CSS, GSAP & Figma
         </p>
       </div>
       <Float config={projects} />
