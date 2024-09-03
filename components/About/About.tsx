@@ -24,18 +24,15 @@ export default function About() {
         <SubHeading dark align={Align.Left} className="text-purple-600">
           About
         </SubHeading>
-
         <img
           src="/images/headshot.jpg"
           alt="Headshot"
           className="mb-4 h-72 w-72 rounded-full border-4 border-purple-300 object-cover shadow-md"
         />
-
         <Heading size="sm" dark className="font-extrabold text-purple-700">
           A business student turned claims analyst with a knack for numbers and
           data
         </Heading>
-
         <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
           Meet Mahee Upadhyaya, a charming business enthusiast with a global
           educational journey. Starting from the vibrant classrooms of
@@ -44,7 +41,6 @@ export default function About() {
           School, consistently ranking in the top 10 in Business Studies,
           Accounting, Economics, and Computer Science.
         </p>
-
         <p className="mt-4 mb-4 rounded-lg bg-customPurple bg-opacity-50 text-center text-lg text-white transition-all duration-200 ease-in-out">
           Now, she&apos;s wrapping up her senior year at Tompkins High School in
           the USA, while also gaining practical experience as a Rebate Claim
@@ -52,6 +48,13 @@ export default function About() {
           of business administration. This ambition fuels her dedication to her
           studies and future career.
         </p>
+        <a
+          href="/assets/MaheeResume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Resume
+        </a>{" "}
       </div>
       <Float config={about} />
     </SectionLayout>
