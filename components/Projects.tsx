@@ -8,7 +8,7 @@ import { Align } from "./Typography/types";
 export default function Writing() {
   return (
     <SectionLayout className="">
-      <div className="md:max-w-2/3 flex w-full flex-col items-start space-y-11">
+      <div className="md:max-w-2/3 flex w-full flex-col items-start space-y-11 mb-16">
         <SubHeading dark align={Align.Left}>
           Skills
         </SubHeading>
