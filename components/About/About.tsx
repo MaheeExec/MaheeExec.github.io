@@ -6,6 +6,7 @@ import { Heading, SubHeading } from "../Typography";
 import { Align } from "../Typography/types";
 import MobileTechList from "./MobileTechList";
 import TechList from "./TechList";
+import { FaFileAlt } from "react-icons/fa";
 
 export default function About() {
   const [mounted, setMounted] = useState(false);
@@ -19,7 +20,7 @@ export default function About() {
   }
 
   return (
-    <SectionLayout className="bg-pink-50 mb-20 w-full items-start rounded-lg p-6 shadow-lg">
+    <SectionLayout className="bg-pink-50 mb-20 mb-16 w-full items-start rounded-lg p-6 shadow-lg">
       <div className="flex flex-col items-center">
         <SubHeading dark align={Align.Left} className="text-purple-600">
           About
@@ -52,10 +53,12 @@ export default function About() {
           href="/assets/MaheeResume.pdf"
           target="_blank"
           rel="noopener noreferrer"
+          className="inline-flex items-center rounded-full bg-gray-200 px-3 py-1 text-gray-800"
         >
-          Open Resume
-        </a>{" "} {" "}
-      </div>      
+          <FaFileAlt className="h-6 w-6" />
+          <span className="ml-2">Open Resume in new tab</span>
+        </a>{" "}
+      </div>
       <Float config={about} />
     </SectionLayout>
   );
